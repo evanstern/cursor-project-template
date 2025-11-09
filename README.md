@@ -34,69 +34,31 @@ git init
 
 ### 2. Customize for Your Project
 
-Open the project in Cursor and use these sample prompts to get started:
+Open the project in Cursor and use AI to customize the template. See `@PROMPTS.md` for ready-to-use prompts organized by task:
 
-#### Initial Setup Prompts
-
+**Quick examples:**
 ```
-@.cursorrules @docs/PROJECT_SETUP.md Set up this project as a [Next.js/Python/Rust/etc.] project
-```
-
-```
-@.cursorrules Add project-specific rules for a [web app/API/CLI tool/mobile app]
+@PROMPTS.md @docs/PROJECT_SETUP.md Set up this project as a [language/framework] project
 ```
 
 ```
-@docs/ Create documentation structure for [your project type]
+@PROMPTS.md show me the setup prompt for [TypeScript/Python/Go/Rust]
 ```
 
-#### Adding Rules
+For all customization prompts, see:
+- **`@PROMPTS.md`** - Complete library of structured prompts
+- **`@docs/PROJECT_SETUP.md`** - Detailed setup guide
+- **`@QUICK_START.md`** - Quick start for AI agents
 
-```
-@.cursor/rules/README.md Create a new rule for [coding standards/API patterns/testing]
-```
+### 3. Explore the Structure
 
-```
-Following @.cursor/rules/README.md, add a modular rule for [specific concern]
-```
+The template includes:
+- **Discovery files** - `@.cursor/MANIFEST.md`, `@QUICK_START.md`
+- **Setup guides** - `@docs/PROJECT_SETUP.md`, `@PROMPTS.md`
+- **Documentation** - `@docs/` directory with focused guides
+- **Rules** - `.cursorrules` and `.cursor/rules/`
 
-#### Setting Up Workflows
-
-```
-@docs/workflows/README.md Create a commit workflow that [your requirements]
-```
-
-```
-@docs/workflows/README.md Set up a workflow for [feature development/bug fixes/releases]
-```
-
-#### Creating Agent Specs
-
-```
-@docs/agents/README.md Create an agent specification for [backend/frontend/testing/docs]
-```
-
-```
-Following the pattern in @docs/agents/README.md, define a [specialized agent type]
-```
-
-#### Project Configuration
-
-```
-@.gitignore @.cursorignore Update these files for a [Node.js/Python/Go/Java] project
-```
-
-```
-Add [build tool/package manager/framework] specific ignores to @.gitignore
-```
-
-### 3. Review and Iterate
-
-The template provides skeletons and patterns. Work with Cursor to:
-- Fill in documentation
-- Add project-specific rules
-- Create workflows for your team
-- Define specialized agents as needed
+See **`@.cursor/MANIFEST.md`** for a complete project map.
 
 ## What's Included
 
@@ -130,26 +92,18 @@ cursor-project-template/
 ## Core Concepts
 
 ### Modular Rules
-
-Keep rules focused and context-appropriate by organizing them in `.cursor/rules/`:
-- Each rule can target specific file types or contexts
-- Rules can be automatically applied or manually invoked
-- See `.cursor/rules/README.md` for patterns
+Rules organized in `.cursor/rules/` for focused, context-appropriate guidance.  
+→ See `@.cursor/rules/README.md` and `@.cursor/rules/SCHEMA.md`
 
 ### LLM-Optimized Documentation
-
-Documentation is structured for easy discovery with `@` references:
-- `@docs/CURSOR.md` - Guide for using Cursor effectively
-- `@docs/workflows/` - Common workflow patterns
-- `@docs/agents/` - Specialized agent specifications
+Documentation structured for AI discovery with `@` references and focused files.  
+→ See `@docs/cursor/index.md` for Cursor guide  
+→ See `@docs/README.md` for documentation index
 
 ### Agentic Development
-
-This template supports AI-driven development:
-- Clear context boundaries
-- Focused, discoverable documentation
-- Patterns over rigid prescriptions
-- Iterative, collaborative approach
+AI-driven development with clear context boundaries and discoverable resources.  
+→ See `@QUICK_START.md` for AI agent orientation  
+→ See `@docs/cursor/best-practices.md` for effective collaboration
 
 ## What's NOT Included
 

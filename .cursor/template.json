@@ -1,0 +1,114 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "cursor-project-template-metadata",
+  "template": {
+    "name": "cursor-project-template",
+    "version": "1.0.0",
+    "description": "Universal scaffolding for Cursor-based agentic development",
+    "repository": "https://github.com/yourusername/cursor-project-template",
+    "license": "MIT"
+  },
+  "initialized": {
+    "date": "2025-11-09",
+    "from_template": true
+  },
+  "project": {
+    "name": "to-be-set",
+    "description": "to-be-set",
+    "type": "to-be-set",
+    "language": "to-be-set",
+    "framework": "to-be-set",
+    "repository": null
+  },
+  "customization": {
+    "setup_phase": "template",
+    "core_rules_updated": false,
+    "modular_rules_added": false,
+    "documentation_filled": false,
+    "project_structure_added": false,
+    "workflows_added": false,
+    "agent_specs_added": false,
+    "ci_cd_configured": false,
+    "decisions_documented": false,
+    "verification_completed": false
+  },
+  "setup": {
+    "wizard_used": false,
+    "setup_started": null,
+    "setup_completed": null,
+    "phases_completed": [],
+    "verification_passed": false,
+    "onboarding_shown": false
+  },
+  "decisions": {
+    "decision_count": 0,
+    "latest_decision": null,
+    "decision_directory": "docs/decisions/"
+  },
+  "development": {
+    "package_manager": "to-be-set",
+    "test_framework": "to-be-set",
+    "linter": "to-be-set",
+    "formatter": "to-be-set",
+    "build_tool": "to-be-set"
+  },
+  "features": {
+    "modular_rules": true,
+    "cursor_optimized_docs": true,
+    "workflow_patterns": true,
+    "agent_specializations": true,
+    "troubleshooting_guide": true,
+    "decision_records": true,
+    "setup_wizard": true,
+    "verification_checklist": true,
+    "onboarding_guide": true
+  },
+  "rules": {
+    "custom_rules": [],
+    "auto_applied_rules": [],
+    "manual_rules": []
+  },
+  "schema_version": "1.1",
+  "notes": [
+    "This file tracks template usage and customization status",
+    "Update 'project' fields when setting up your project",
+    "Update 'customization' flags as you customize the template",
+    "Update 'setup' tracking as you progress through phases",
+    "Update 'rules' array when creating new modular rules",
+    "Update 'decisions' when creating ADRs",
+    "AI agents can read this to understand project state and history"
+  ],
+  "instructions_for_ai": {
+    "when_to_update": "Update this file after completing any setup phase, creating new rules, or documenting decisions",
+    "setup_phases": [
+      "Phase 0: Discovery & Planning",
+      "Phase 1: Core Project Setup",
+      "Phase 2: Project Structure",
+      "Phase 3: Rules & Standards",
+      "Phase 4: Development Environment",
+      "Phase 5: Documentation",
+      "Phase 6: Workflows & CI/CD",
+      "Phase 7: Specialized Features",
+      "Phase 8: Final Setup & Verification",
+      "Phase 9: Onboarding & Next Steps"
+    ],
+    "how_to_track_progress": {
+      "setup_started": "Set to ISO date when setup begins",
+      "phases_completed": "Array of completed phase names",
+      "setup_completed": "Set to ISO date when all phases done",
+      "verification_passed": "Set to true when VERIFICATION.md checklist passes",
+      "onboarding_shown": "Set to true when ONBOARDING.md guide provided"
+    },
+    "tracking_rules": {
+      "custom_rules": "List of custom rule filenames created (e.g., ['api-design.md', 'security.md'])",
+      "auto_applied_rules": "Rules with globs that auto-apply",
+      "manual_rules": "Rules that must be manually referenced"
+    },
+    "tracking_decisions": {
+      "decision_count": "Number of ADRs created",
+      "latest_decision": "Filename of most recent ADR",
+      "update_after_each_adr": true
+    }
+  }
+}
+

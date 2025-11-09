@@ -1,0 +1,86 @@
+# Cursor Project Template - Core Rules
+
+This project uses Cursor AI with agentic development practices.
+
+## About This Template
+
+This is a minimal, universal template for projects that use:
+- Git version control
+- Cursor IDE
+- Agentic AI models for development
+- Modular, lightweight rules
+
+## Using Rules in This Project
+
+### Core Rules (This File)
+This file contains universal rules that apply across all contexts. Keep these minimal and applicable to any project type.
+
+### Modular Rules (.cursor/rules/)
+For more specific guidance, use modular rules in `.cursor/rules/`. These are focused rules that can:
+- Target specific file types (via glob patterns)
+- Be manually invoked when needed
+- Keep context focused and token-efficient
+
+**Learn more:** `@.cursor/rules/README.md` - Complete guide to modular rules system
+
+## Universal Coding Principles
+
+### Documentation
+- Document your code appropriately for your language/framework
+- Explain "why" not just "what"
+- Keep documentation up-to-date with code changes
+
+### Code Quality
+- Follow your language's best practices
+- Use type safety when available
+- Write clear, maintainable code
+- Handle errors appropriately
+
+### AI Collaboration Best Practices
+
+**Be Specific:** Provide clear, detailed instructions
+- ❌ "Fix the bug"
+- ✅ "Fix the authentication error where tokens expire prematurely"
+
+**Provide Context:** Use @ references to give relevant context
+- `@filename.ext` - Reference specific files
+- `@folder/` - Reference directories
+- `@docs/` - Reference documentation
+- `@codebase` - Search across the codebase
+
+**Iterate Incrementally:** Break large tasks into smaller steps
+
+**Review AI Output:** Always review and test AI-generated code
+
+## Discovering Project Resources
+
+Your primary navigation files:
+- **`@.cursor/MANIFEST.md`** - Complete project map (read this first!)
+- **`@QUICK_START.md`** - Quick orientation for AI agents
+- **`@docs/README.md`** - Documentation index
+- **`@PROMPTS.md`** - Customization prompts
+
+Detailed guides:
+- **`@docs/cursor/index.md`** - Working with Cursor
+- **`@docs/PROJECT_SETUP.md`** - Customizing this template
+- **`@docs/workflows/README.md`** - Workflow patterns
+- **`@docs/agents/README.md`** - Agent specialization patterns
+
+## Customizing This Template
+
+When starting a new project from this template:
+
+1. **Read the map**: `@.cursor/MANIFEST.md` - understand what exists
+2. **Use prompts**: `@PROMPTS.md` - ready-to-use customization prompts
+3. **Follow setup guide**: `@docs/PROJECT_SETUP.md` - step-by-step checklist
+4. **Add modular rules**: `.cursor/rules/` - project-specific guidance
+5. **Fill documentation**: `docs/` - complete the skeletons
+6. **Update ignores**: `.gitignore` and `.cursorignore` - for your stack
+7. **Add configs**: Language/framework specific files
+
+**Detailed guidance:** `@docs/PROJECT_SETUP.md`
+
+---
+
+**Remember:** This template is a starting point. Customize it for your specific project needs while maintaining the modular, agentic development approach.
+
